@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+        app:startDestination="@+id/trans">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.e.speedogistic.ui.profile.ProfileFrag"
+        android:label="@string/Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/trans"
+        android:name="com.e.speedogistic.ui.Transporters.TransFragment"
+        android:label="@string/Trans"
+        tools:layout="@layout/fragment_trans" />
+
+    <fragment
+        android:id="@+id/pre_book"
+        android:name="com.e.speedogistic.ui.pre_book.Pre_bookFragment"
+        android:label="@string/previous_Booking"
+        tools:layout="@layout/fragment_pre_book" />
+
+
+
+    <fragment
+        android:id="@+id/feedback"
+        android:name="com.e.speedogistic.ui.feedback.FeedBackFragment"
+        android:label="@string/Feedback"
+        tools:layout="@layout/fragment_feeback" />
+
+</navigation>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Speedogistic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="role">Choose Your Role</string>
+
+    <string-array name="role_arrays">
+        <item>choose your role</item>
+        <item>Client</item>
+        <item>Transporteur</item>
+    </string-array>
+    <string name="title_activity_client">Client</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="Profile">Profile</string>
+    <string name="previous_Booking">Previous Booking</string>
+    <string name="Feedback">Rating Us</string>
+    <string name="Trans">Transporters</string>
+
+    <string name="title_activity_user_main">UserMain</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_transporters">Transporters</string>
+    <string name="tab_text_1">Profile</string>
+    <string name="tab_text_2">Bookings</string>
+    <string name="tab_text_3">Feedbacks</string>
+    <string name="title_activity_trans">TransActivity</string>
+</resources>
